@@ -1,0 +1,185 @@
+body {
+	background-image: url("https://media.istockphoto.com/id/1299703382/photo/happy-man-rise-hand-worship-god-in-morning-view-christian-spirit-prayer-praise-on-good-friday.jpg?s=170667a&w=0&k=20&c=tPCFlstizm_WXXAjfbKUfqpk_PRvcZaGshbnGbA2Nx4=");
+	background-repeat: repeat;
+	background-color: #bb1818;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  header {
+	background-color: #7915c5;
+	color: #131111;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  nav {
+	background-color: #1b54a958;
+	padding: 10px;
+	text-align: center;
+  }
+  
+  nav a {
+	color: #0c0b0b;
+	margin: 0 10px;
+	text-decoration: none;
+  }
+  
+  .intro-container {
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #1c2d1c;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	color: #d8cccc;
+	max-width: 600px;
+	margin: 0 auto;
+	display: flex;
+  }
+  
+  .intro-image {
+	flex: 0 0 40%;
+	margin-right: 20px;
+  }
+  
+  .intro-image img {
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+  }
+  
+  .intro-content {
+	flex: 1;
+  }
+  
+  form {
+	margin: 20px auto;
+	max-width: 400px;
+	padding: 20px;
+	background-color: #11a7d0a0;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	color: #fff;
+  }
+  
+  form h2 {
+	text-align: center;
+	color: #fff;
+  }
+  
+  .form-group {
+	margin-bottom: 20px;
+  }
+  
+  .form-group label {
+	display: block;
+	font-weight: bold;
+	color: #644d4d;
+  }
+  
+  .form-group input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #777;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+  
+  .button {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 50%;
+	color: #8e1183;
+  }
+  
+  .primary-button {
+	background-color: #27ae60;
+	border: none;
+  }
+  
+  .secondary-button {
+	background-color: #f39c12;
+	border: none;
+  }
+  
+  .glossy-button {
+	background-color: #3498db;
+	border: none;
+	border-radius: 50%;
+	padding: 10px 20px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	transition: background-color 0.3s ease-in-out;
+  }
+  
+  .glossy-button:hover {
+	background-color: #2980b9;
+  }
+  
+  .image-link {
+	display: inline-block;
+	margin: 20px;
+	max-width: 10px;
+	text-align: corner;
+  }
+  
+  .linkedin {
+	background-color: #0e76a8;
+	width: 10px;
+	height: 10px;
+	padding: 5px;
+  }
+  
+  .github {
+	background-color: #24292e;
+	width: 10px;
+	height: 10px;
+	padding: 5px;
+  }
+  
+  .facebook {
+	background-color: #3b5998;
+	width: 10px;
+	height: 10px;
+	padding: 5px;
+  }
+  
+  footer {
+	background-color: #87cf12;
+	color: #211f1f;
+	padding: 10px;
+	text-align: center;
+  }
+  
+  .title-bar {
+	background-color: #bedc17;
+	padding: 10px;
+	margin-bottom: 10px;
+  }
+  
+  .title-bar h3 {
+	margin: 0;
+  }
+  
+  .footer-text {
+	font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+	.intro-container {
+	  flex-direction: column;
+	  align-items: center;
+	}
+  
+	.intro-image {
+	  margin-right: 0;
+	  margin-bottom: 20px;
+	}
+  }
