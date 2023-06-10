@@ -1,0 +1,154 @@
+body {
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/premium-photo/delicate-yellow-abstract-watercolor-background_3590-82.jpg?w=996");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #11ed11;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  header .container {
+    position: relative;
+  }
+  
+  header img.gif-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  header h1 {
+    margin-top: 10px;
+    color: #0f0505;
+    font-family: "ALGERIAN", Arial, sans-serif;
+  }
+  
+  header .intro {
+    color: #fff;
+    margin-top: 10px;
+    font-style: italic;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #066159c2;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: rgb(198, 182, 182);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+  }
+  
+  nav li a:hover {
+    background-color: #560ee4;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    color: #e86310;
+    margin-bottom: 20px;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+  }
+  
+  section p {
+    line-height: 1.5;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+  }
+  
+  section ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  section ul li {
+    margin-bottom: 5px;
+  }
+  
+  section#contact img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #f269a0;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #045268;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+  }
+  
+  .image-frame {
+    border: 5px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .image-frame img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .button-list li {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1d099f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+  }
+  
+  .button:hover {
+    background-color: #066159c2;
+  }  
