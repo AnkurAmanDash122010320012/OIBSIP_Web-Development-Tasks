@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Comic Sans MS", cursive;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-simple-atmospheric-blue-temperature-needle-illustration-background-image_279280.jpg");
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #333;
+    color: #988c09;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    text-align: center;
+    font-family: "ALGERIAN", sans-serif;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #0c169c;
+    border-radius: 5px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-simple-high-temperature-warning-background-material-image_195532.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  .input-section label {
+    font-weight: bold;
+    font-family: "ALGERIAN", sans-serif;
+  }
+  
+  .input-section input[type="text"],
+  .input-section select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #fc1cb9;
+    border-radius: 3px;
+  }
+  
+  .button {
+    background-color: #19eae6;
+    color: #2e28f4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", cursive;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .result-section {
+    margin-top: 20px;
+  }
+  
+  .result-section span {
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive;
+  }
+  
+  .date-section {
+    margin-top: 40px;
+    color: #2b0eeb;
+    font-family: "ALGERIAN", sans-serif;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #f36161;
+    color: #0df963;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 14px;
+    font-family: "Comic Sans MS", cursive;
+  }  
