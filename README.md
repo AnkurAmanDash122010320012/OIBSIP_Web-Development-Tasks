@@ -18,3 +18,13 @@ Each section of the portfolio is well-structured and visually appealing. The "Ab
 <img width="948" alt="image" src="https://github.com/AnkurAmanDash122010320012/OIBSIP_Web-Development-Tasks/assets/91134324/ec46993b-bfdb-4196-b66c-f96f9e0c6837">
 <img width="950" alt="image" src="https://github.com/AnkurAmanDash122010320012/OIBSIP_Web-Development-Tasks/assets/91134324/e2099f2f-58e4-4b08-afd2-a035b7f3adcb">
 <img width="947" alt="image" src="https://github.com/AnkurAmanDash122010320012/OIBSIP_Web-Development-Tasks/assets/91134324/f64b9fe4-4497-4c4a-83de-e8a71c33f208">
+
+#******Task 3: Temperature Converter******
+
+*Description:-*
+
+The temperature converter is a web application that allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin. It features a stylish interface with input fields for entering the temperature and selecting the unit of measurement. After clicking the "Convert" button, the converted temperature is displayed dynamically. The page also includes a real-time date display. Overall, it provides a user-friendly experience for temperature conversions.
+Additionally, the web page features a date section located below the conversion result. The date section has a distinct background color and includes a button labeled "Date." When the "Date" button is clicked, the current date is displayed within the button. This functionality is implemented using JavaScript, which continuously updates the date in real-time.
+Finally, the web page has a footer section displayed at the bottom. It contains a copyright notice and attribution text, acknowledging the creator of the temperature converter.
+Overall, the temperature converter web page offers a visually pleasing and user-friendly interface for performing temperature conversions, displaying results, and providing real-time date information.
+<img width="960" alt="image" src="https://github.com/AnkurAmanDash122010320012/OIBSIP_Web-Development-Tasks/assets/91134324/a8a93889-0e6c-487d-877c-58e498e40c9b">
